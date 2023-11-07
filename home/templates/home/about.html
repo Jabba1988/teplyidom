@@ -1,1 +1,651 @@
-{% extends "home/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<title>
+Главная - Управляющая компания &quot;Теплый Дом&quot; - официальный сайт Управляющая компания &quot;Теплый Дом&quot; &#8212; официальный сайт | Управляющая компания Теплый Дом
+</title>
+    <meta property="og:locale" content="ru_RU" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Главная - Управляющая компания &quot;Теплый Дом&quot; - официальный сайт" />
+	<meta property="og:url" content="https://ukstandart.ru/" />
+	<meta property="og:site_name" content="Управляющая компания &quot;Теплый Дом&quot; - официальный сайт" />
+	<meta property="article:modified_time" content="2023-01-23T10:30:13+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+    <link rel='stylesheet' id='wp-block-library-css' href='https://ukstandart.ru/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2' type='text/css' media='all' />
+    <style id='classic-theme-styles-inline-css' type='text/css'>
+    /*! This file is auto-generated */
+    .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+    </style>
+    <style id='global-styles-inline-css' type='text/css'>
+    body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+    .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+    :where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+    :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+    .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+    </style>
+    <link rel='stylesheet' id='css-style-css' href='https://ukstandart.ru/wp-content/plugins/comfortable-reading-premium/css/custom.css?ver=6.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-bootstrap-style-css' href='https://ukstandart.ru/wp-content/plugins/bootstrap-for-contact-form-7/assets/dist/css/style.min.css?ver=6.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='dashicons-css' href='https://ukstandart.ru/wp-includes/css/dashicons.min.css?ver=6.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='fancybox-css' href='https://ukstandart.ru/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.css?ver=6.3.2' type='text/css' media='screen' />
+    <link rel='stylesheet' id='mm-compiled-options-mobmenu-css' href='https://ukstandart.ru/wp-content/uploads/dynamic-mobmenu.css?ver=2.8.4-666' type='text/css' media='all' />
+    <link rel='stylesheet' id='mm-google-webfont-open-sans-css' href='//fonts.googleapis.com/css?family=Open+Sans%3Ainherit%2C600%2C400&#038;subset=latin%2Clatin-ext&#038;ver=6.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='cf7cf-style-css' href='https://ukstandart.ru/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.3.12' type='text/css' media='all' />
+    <link rel='stylesheet' id='cssmobmenu-icons-css' href='https://ukstandart.ru/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=6.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='cssmobmenu-css' href='https://ukstandart.ru/wp-content/plugins/mobile-menu/includes/css/mobmenu.css?ver=2.8.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='bellows-css' href='https://ukstandart.ru/wp-content/plugins/bellows-accordion-menu/assets/css/bellows.min.css?ver=1.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='bellows-font-awesome-css' href='https://ukstandart.ru/wp-content/plugins/bellows-accordion-menu/assets/css/fontawesome/css/font-awesome.min.css?ver=1.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='bellows-vanilla-css' href='https://ukstandart.ru/wp-content/plugins/bellows-accordion-menu/assets/css/skins/vanilla.css?ver=1.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='bs-css' href='https://ukstandart.ru/wp-content/themes/defaults/css/bootstrap.min.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='main-css' href='https://ukstandart.ru/wp-content/themes/defaults/style.css?1699105481&#038;ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-css' href='https://ukstandart.ru/wp-content/themes/defaults/responsive.css?1699105481&#038;ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-slider-css' href='https://ukstandart.ru/wp-content/themes/defaults/css/owlslider.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-theme-css' href='https://ukstandart.ru/wp-content/themes/defaults/css/owl.theme.css?ver=1.0' type='text/css' media='all' />
+    <script type='text/javascript' src='https://ukstandart.ru/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+    <script type='text/javascript' src='https://ukstandart.ru/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+    <script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/mobile-menu/includes/js/mobmenu.js?ver=2.8.4' id='mobmenujs-js'></script>
+    <style id="bellows-custom-generated-css">
+    <link rel='stylesheet' id='megamenu-css' href='https://ukstandart.ru/wp-content/uploads/maxmegamenu/style.css?ver=aab4fe' type='text/css' media='all' />
+/* Status: Loaded from Transient */
+
+    </style>		
+<style type="text/css">
+</style>		<style type="text/css">
+    div.wpcf7 .ajax-loader {
+        background-image: url('https://ukstandart.ru/wp-content/plugins/contact-form-7/images/ajax-loader.gif');
+    }
+</style>
+{% comment %} <link rel="icon" href="https://ukstandart.ru/wp-content/uploads/2020/06/cropped-ico-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://ukstandart.ru/wp-content/uploads/2020/06/cropped-ico-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ukstandart.ru/wp-content/uploads/2020/06/cropped-ico-180x180.png" />
+<meta name="msapplication-TileImage" content="https://ukstandart.ru/wp-content/uploads/2020/06/cropped-ico-270x270.png" /> {% endcomment %}
+<style type="text/css">/** Mega Menu CSS: fs **/</style>
+
+
+</head>
+<body class="home page-template page-template-page-custom page-template-page-custom-php page page-id-2 mega-menu-top mob-menu-slideout-over">
+	<header>
+
+<div id="topbar">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+ <div id="cr_text_widget-2" class="widget widget_cr_text_widget"><div id="cr_widget"><a href="#" itemprop="Copy" id="cr_version_link">Версия для слабовидящих</a></div></div>
+</div>
+{% comment %} <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 text-right breaks">
+    <a href="/#breaks">Отключения</a> {% endcomment %}
+</div>
+</div>
+</div>
+</div>
+<div id="centerbar">
+	<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                     <div class="logo">
+                       <img src={% static "home/images/logotip.png" %} class="" alt=""> 
+                         <div class="blogname">
+                            <p class="title">г. Екатеринбург</p>
+                            <p class="title">добавить адрес</p>
+                        </div>
+                     </div>
+	            </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="row">
+                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-right">
+                            <div class="phone">
+                                <div class="phone-title">Единый телефон</div>
+                                <div class="phone-number"><a href="tel:+7 (343) 234-56-78">+7 (343) 234-56-78</a></div>
+                            </div>
+                         </div>
+                         {% comment %} <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6  text-right">
+                               <div class="phone">
+                                <div class="phone-title">Аварийно-диспетчерская служба</div>
+                                <div class="phone-number"><a href="tel:+7 (343) 385-77-22 +7 (343) 235-72-72"><span>+7 (343) 385-77-22 +7 (343) 235-72-72</span></a></div>
+                            </div> {% endcomment %}
+                         </div>
+                    </div>
+	            </div>
+               {% comment %} <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"> {% endcomment %}
+                    {% comment %} <a href="https://abonent.erc-ekb.ru/" target="blank"><div class="btn btn-lk">Передать показания</div></a> {% endcomment %}
+	            </div>
+					
+		</div>
+	</div>
+</div>
+<div id="menubar">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10">
+            <div id="mega-menu-wrap-top" class="mega-menu-wrap">
+                <div class="mega-menu-toggle">
+                    <div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'>
+                            {% comment %} <span class='mega-toggle-label' role='button' aria-expanded='false'>
+                                <span class='mega-toggle-label-closed'>MENU</span>
+                                <span class='mega-toggle-label-open'>MENU</span>
+                            </span> {% endcomment %}
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    ul#mega-menu-top li {
+                      display:inline;
+                      }
+                    a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                      
+                    </style>
+                    <ul id="mega-menu-top" class="max-mega-menu mega-menu-horizontal mega-no-js" display="inline" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="0" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
+                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-2 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-30' id='mega-menu-item-30'><a class="mega-menu-link" href="/" aria-current="page" tabindex="0">Главная&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-2 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-30' id='mega-menu-item-30'><a class="mega-menu-link" href="/about" aria-current="page" tabindex="0">&nbsp;&nbsp;&nbsp;&nbsp;О нас&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-2 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-30' id='mega-menu-item-30'><a class="mega-menu-link" href="/news" aria-current="page" tabindex="0">&nbsp;&nbsp;&nbsp;&nbsp;Новости&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-2 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-30' id='mega-menu-item-30'><a class="mega-menu-link" href="/ownhomes" aria-current="page" tabindex="0">&nbsp;&nbsp;&nbsp;&nbsp;Дома&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        {% comment %} <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-157' id='mega-menu-item-157'><a class="mega-menu-link" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">События<span class="mega-indicator"></span></a> {% endcomment %}
+{% comment %} <ul class="mega-sub-menu"> {% endcomment %}
+
+{% comment %} <a href="https://frisbi24.ru/services/pay/2869-kvitantsii-erts-g-ekaterinburg" class="btn btn-lk-outline float-right">Оплата</a> {% endcomment %}
+</div>
+</div>
+
+                
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+	<div class="container">
+
+<div class="row">
+			<div class="col-xs-12 col-md-12">
+<p id="breadcrumbs"><span><span><a href="/">Главная</a></span> / <span class="breadcrumb_last" aria-current="page">О компании</span></span></p></div>
+</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+									<article id="post-60" class="post-60 page type-page status-publish hentry">
+						<h1>О компании</h1>
+													
+<p>Управляющая Компания «Теплый Дом» &#8212; одна из крупнейших компаний в Екатеринбурге, жилой фонд насчитывает порядка 330 многоквартирных домов преимущественно на территории Ленинского района.</p>
+
+
+
+<p>За годы работы управляющая компания многократно получала признание своего профессионализма, неоднократно&nbsp; отмечалась на Всероссийском конкурсе на лучшую организацию, предприятие жилищно-коммунального хозяйства в числе лучших предприятий ЖКХ, получала призовые места на городских и районных конкурсах, смотрах, фестивалях.</p>
+
+
+
+<p>Социальная направленность работы «Единого Стандарта» &#8212; это в первую очередь налоги, которые поступают в бюджет г.Екатеринбурга, участие компании в различных благотворительных мероприятиях города и забота о своих сотрудниках.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><a href="https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-1.jpg"><img decoding="async" fetchpriority="high" width="724" height="1024" data-id="331" src="https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-1.jpg" alt="" class="wp-image-331" srcset="https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-1.jpg 724w, https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-1-212x300.jpg 212w, https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-1-106x150.jpg 106w" sizes="(max-width: 724px) 100vw, 724px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-2.jpg"><img decoding="async" width="724" height="1024" data-id="332" src="https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-2.jpg" alt="" class="wp-image-332" srcset="https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-2.jpg 724w, https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-2-212x300.jpg 212w, https://ukstandart.ru/wp-content/uploads/2020/03/licenzija-uk-standart-2019-2-106x150.jpg 106w" sizes="(max-width: 724px) 100vw, 724px" /></a></figure>
+</figure>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="683" height="835" src="https://ukstandart.ru/wp-content/uploads/2022/12/o-prodlenii-licenzii.jpg" alt="" class="wp-image-10430" srcset="https://ukstandart.ru/wp-content/uploads/2022/12/o-prodlenii-licenzii.jpg 683w, https://ukstandart.ru/wp-content/uploads/2022/12/o-prodlenii-licenzii-245x300.jpg 245w, https://ukstandart.ru/wp-content/uploads/2022/12/o-prodlenii-licenzii-123x150.jpg 123w" sizes="(max-width: 683px) 100vw, 683px" /></figure>
+
+
+
+<p>Согласно требованиям Федерального закона от 28.12.2013 N 426-ФЗ (ред. от 30.12.2020) &#171;О специальной оценке условий труда&#187; управляющая организация ООО &#171;УПРАВЛЯЮЩАЯ КОМПАНИЯ &#171;Теплый Дом&#187; проводит специальную оценку условий труда. Информация о выдаче декларации соответствия условий труда государственным нормативным требованиям охраны труда опубликована на сайте федеральной службы по труду и занятости на сайте: https://declaration.rostrud.gov.ru/ &#8212; Реестр деклараций &#8212; поиск по ИНН: 6671097143.</p>
+
+
+
+<div class="wp-block-file"><a id="wp-block-file--media-7f71e8b4-8d5c-480d-837f-ca3cd057eb8b" href="https://ukstandart.ru/wp-content/uploads/2021/02/deklaracija-sootvetstvija-uslovij-truda-gosud.normativnym-trebovanijam-ohrany-truda.pdf">Декларация соответствия условий труда госуд.нормативным требованиям охраны труда</a><a href="https://ukstandart.ru/wp-content/uploads/2021/02/deklaracija-sootvetstvija-uslovij-truda-gosud.normativnym-trebovanijam-ohrany-truda.pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-7f71e8b4-8d5c-480d-837f-ca3cd057eb8b">Скачать</a></div>
+
+
+
+<div class="wp-block-file"><a id="wp-block-file--media-f4f45fcd-e92d-43d0-8243-d02d213ba746" href="https://ukstandart.ru/wp-content/uploads/2023/04/onlajn-opros.pdf">Онлайн опрос</a><a href="https://ukstandart.ru/wp-content/uploads/2023/04/onlajn-opros.pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-f4f45fcd-e92d-43d0-8243-d02d213ba746">Скачать</a></div>
+												
+
+
+					</article>
+							</div>
+			
+
+{% comment %} <aside class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+	<div id="bellows_navigation_widget-2" class="widget bellows_navigation_widget-class"><nav id="bellows-main-2" class="bellows bellows-nojs bellows-main bellows-source-menu bellows-align-full bellows-skin-vanilla bellows-type- bellows-expand-current"><ul id="menu-verhnee-menju" class="bellows-nav" data-bellows-config="main"><li id="menu-item-30" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-home bellows-menu-item-30 bellows-item-level-0"><a  href="https://ukstandart.ru/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Главная</span></a></li>
+<li id="menu-item-157" class="bellows-menu-item bellows-menu-item-type-custom bellows-menu-item-object-custom bellows-menu-item-has-children bellows-menu-item-157 bellows-item-level-0"><a  href="#" class="bellows-target"><span class="bellows-target-title bellows-target-text">События</span><button class="bellows-subtoggle" aria-label="Toggle Submenu"><i class="bellows-subtoggle-icon-expand fa fa-chevron-down"></i><i class="bellows-subtoggle-icon-collapse fa fa-chevron-up"></i></button></a>
+<ul class="bellows-submenu">
+	<li id="menu-item-159" class="bellows-menu-item bellows-menu-item-type-taxonomy bellows-menu-item-object-category bellows-menu-item-159 bellows-item-level-1"><a  href="https://ukstandart.ru/news/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Новости</span></a></li>
+	<li id="menu-item-158" class="bellows-menu-item bellows-menu-item-type-custom bellows-menu-item-object-custom bellows-menu-item-158 bellows-item-level-1"><a  href="/maintenance/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Отключения</span></a></li>
+	<li id="menu-item-160" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-160 bellows-item-level-1"><a  href="https://ukstandart.ru/tehnicheskoe-obsluzhivanie-gazovogo-oborudovanija/" class="bellows-target"><span class="bellows-target-title bellows-target-text">ТО газового оборудования</span></a></li>
+	<li id="menu-item-7726" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-7726 bellows-item-level-1"><a  href="https://ukstandart.ru/grafik-obsluzhivanija-ventiljacionnyh-kanalov/" class="bellows-target"><span class="bellows-target-title bellows-target-text">ТО вентиляционных каналов</span></a></li>
+	<li id="menu-item-11877" class="bellows-menu-item bellows-menu-item-type-taxonomy bellows-menu-item-object-category bellows-menu-item-11877 bellows-item-level-1"><a  href="https://ukstandart.ru/informacija-o-mestah-nakoplenija-othodov/" class="bellows-target"><span class="bellows-target-title bellows-target-text">О местах накопления отходов</span></a></li>
+</ul>
+</li>
+<li id="menu-item-68" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-current-menu-item bellows-page_item bellows-page-item-60 bellows-current_page_item bellows-menu-item-has-children bellows-menu-item-68 bellows-item-level-0"><a  href="https://ukstandart.ru/o-kompanii/" class="bellows-target"><span class="bellows-target-title bellows-target-text">О Нас</span><button class="bellows-subtoggle" aria-label="Toggle Submenu"><i class="bellows-subtoggle-icon-expand fa fa-chevron-down"></i><i class="bellows-subtoggle-icon-collapse fa fa-chevron-up"></i></button></a>
+<ul class="bellows-submenu">
+	<li id="menu-item-6001" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-6001 bellows-item-level-1"><a  href="https://ukstandart.ru/o-kompanii/rekvizity/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Реквизиты</span></a></li>
+</ul>
+</li>
+<li id="menu-item-172" class="bellows-menu-item bellows-menu-item-type-custom bellows-menu-item-object-custom bellows-menu-item-has-children bellows-menu-item-172 bellows-item-level-0"><a  href="#" class="bellows-target"><span class="bellows-target-title bellows-target-text">Официально</span><button class="bellows-subtoggle" aria-label="Toggle Submenu"><i class="bellows-subtoggle-icon-expand fa fa-chevron-down"></i><i class="bellows-subtoggle-icon-collapse fa fa-chevron-up"></i></button></a>
+<ul class="bellows-submenu">
+	<li id="menu-item-177" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-has-children bellows-menu-item-177 bellows-item-level-1"><a  href="https://ukstandart.ru/raskrytie-informacii/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Раскрытие информации</span><button class="bellows-subtoggle" aria-label="Toggle Submenu"><i class="bellows-subtoggle-icon-expand fa fa-chevron-down"></i><i class="bellows-subtoggle-icon-collapse fa fa-chevron-up"></i></button></a>
+	<ul class="bellows-submenu">
+		<li id="menu-item-6015" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-6015 bellows-item-level-2"><a  href="https://ukstandart.ru/raskrytie-informacii/buhgalterskaja-otchetnost/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Бухгалтерская отчетность</span></a></li>
+		<li id="menu-item-2148" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-2148 bellows-item-level-2"><a  href="https://ukstandart.ru/raskrytie-informacii/forma-1-2/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Форма 1.2</span></a></li>
+		<li id="menu-item-10623" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-10623 bellows-item-level-2"><a  href="https://ukstandart.ru/raskrytie-informacii/dogovor-upravlenija/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Договор управления</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-176" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-176 bellows-item-level-1"><a  href="https://ukstandart.ru/razbivka-domov-po-zhjeu/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Разбивка домов по ЖЭУ</span></a></li>
+	<li id="menu-item-5547" class="bellows-menu-item bellows-menu-item-type-custom bellows-menu-item-object-custom bellows-menu-item-5547 bellows-item-level-1"><a  href="/house-archive/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Архив домов</span></a></li>
+	<li id="menu-item-175" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-175 bellows-item-level-1"><a  href="https://ukstandart.ru/blanki-i-dokumenty/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Бланки и документы</span></a></li>
+	<li id="menu-item-187" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-has-children bellows-menu-item-187 bellows-item-level-1"><a  href="https://ukstandart.ru/zakonodatelstvo/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Законодательство</span><button class="bellows-subtoggle" aria-label="Toggle Submenu"><i class="bellows-subtoggle-icon-expand fa fa-chevron-down"></i><i class="bellows-subtoggle-icon-collapse fa fa-chevron-up"></i></button></a>
+	<ul class="bellows-submenu">
+		<li id="menu-item-451" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-451 bellows-item-level-2"><a  href="https://ukstandart.ru/zakonodatelstvo/tarify-na-kommunalnye-uslugi/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Тарифы и нормативы на коммунальные услуги</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-426" class="bellows-menu-item bellows-menu-item-type-taxonomy bellows-menu-item-object-category bellows-menu-item-426 bellows-item-level-1"><a  href="https://ukstandart.ru/zadolzhennost/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Задолженность</span></a></li>
+	<li id="menu-item-173" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-173 bellows-item-level-1"><a  href="https://ukstandart.ru/uslugi/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Услуги</span></a></li>
+	<li id="menu-item-189" class="bellows-menu-item bellows-menu-item-type-taxonomy bellows-menu-item-object-category bellows-menu-item-189 bellows-item-level-1"><a  href="https://ukstandart.ru/blog/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Статьи</span></a></li>
+</ul>
+</li>
+<li id="menu-item-100" class="bellows-menu-item bellows-menu-item-type-custom bellows-menu-item-object-custom bellows-menu-item-100 bellows-item-level-0"><a  href="/house/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Дома</span></a></li>
+<li id="menu-item-5941" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-5941 bellows-item-level-0"><a  href="https://ukstandart.ru/arenda/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Аренда</span></a></li>
+<li id="menu-item-9872" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-has-children bellows-menu-item-9872 bellows-item-level-0"><a  href="https://ukstandart.ru/obrashhenija/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Обращения</span><button class="bellows-subtoggle" aria-label="Toggle Submenu"><i class="bellows-subtoggle-icon-expand fa fa-chevron-down"></i><i class="bellows-subtoggle-icon-collapse fa fa-chevron-up"></i></button></a>
+<ul class="bellows-submenu">
+	<li id="menu-item-9878" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-9878 bellows-item-level-1"><a  href="https://ukstandart.ru/obrashhenija/forma-obrashhenija-jul/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Форма обращения ЮЛ</span></a></li>
+	<li id="menu-item-9877" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-9877 bellows-item-level-1"><a  href="https://ukstandart.ru/obrashhenija/forma-obrashhenija-fl/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Форма обращения ФЛ</span></a></li>
+	<li id="menu-item-9876" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-9876 bellows-item-level-1"><a  href="https://ukstandart.ru/obrashhenija/zajavka-na-spisanie-kontrolnyh-pokazanij/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Заявка на списание контрольных показаний</span></a></li>
+	<li id="menu-item-9875" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-9875 bellows-item-level-1"><a  href="https://ukstandart.ru/obrashhenija/zajavka-na-vvod-v-jekspluataciju-ipu/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Заявка на ввод в эксплуатацию ИПУ</span></a></li>
+</ul>
+</li>
+<li id="menu-item-67" class="bellows-menu-item bellows-menu-item-type-post_type bellows-menu-item-object-page bellows-menu-item-67 bellows-item-level-0"><a  href="https://ukstandart.ru/kontakty/" class="bellows-target"><span class="bellows-target-title bellows-target-text">Контакты</span></a></li>
+</ul></nav></div>
+</aside>
+		</div>
+	</div>
+</section> {% endcomment %}
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-5">
+                 <div class="logo">
+                     <img src={% static "home/images/logotip.png" %} class="" alt=""> 
+                     <div class="blogname">
+                        <p class="title">г. Екатеринбург</p>
+                        <p class="title">Вставить адрес</p>
+                     </div>
+                 </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-7">
+                <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-right">
+                        <div class="phone">
+                            <div class="phone-title">Единый телефон</div>
+                            <div class="phone-number"><a href="tel:+7 (343) 235-74-35">+7 (343) 234-56-78</a></div>
+                        </div>
+                     </div>
+                     {% comment %} <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-right">
+                           <div class="phone">
+                            <div class="phone-title">Аварийно-диспетчерская служба</div>
+                            <div class="phone-number"><a href="tel:+7 (343) 385-77-22 +7 (343) 235-72-72"><span>+7 (343) 385-77-22 +7 (343) 235-72-72</span></a></div>
+                        </div> {% endcomment %}
+                     </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+               <!-- <a href="https://abonent.erc-ekb.ru/" target="blank"><div class="btn btn-lk">Передать показания</div></a>-->
+            </div>
+         </div>
+         
+        <div class="row copyright">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy; 2023 ООО «УК «Теплый Дом»</div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center"><a href="/privacy-policy/">Политика конфиденциальности</a>
+             </div>
+        </div>
+
+      </div>
+</footer>
+
+
+
+<!-- Modal  -- data-toggle="modal" data-target="#myModal"-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <div class="modal-body">
+       
+        <div class="modal-title text-center"></div>
+  <div class="modal-subtitle text-center">
+
+ 
+    
+        </div>
+  
+      </div>
+     
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<style id="multiple-file-upload">/* Delete Status */
+.dnd-icon-remove.deleting { font-size:12px; color:#000; font-weight: 500; position: relative; top:-3px; }
+.dnd-icon-remove.deleting:after { display:none!important; }
+
+.wpcf7-drag-n-drop-file.d-none {
+	display:none;
+	opacity:0;
+	visibility:hidden;
+	position:absolute;
+	top:0;
+}
+
+/* Upload Status */
+.dnd-upload-status {
+	display:flex;
+	padding:4px 0;
+	align-items:center;
+	position:relative;
+}
+
+/* Progress bar - Image */
+.dnd-upload-status .dnd-upload-image {
+	width:40px;
+	height:40px;
+	border:1px solid #a5a5a5;
+	text-align:center;
+	border-radius:100%;
+	position:relative;
+}
+.dnd-upload-status .dnd-upload-image span.file {
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='18' height='23' viewBox='0 0 18 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.569 0.659576H0.5V23H18V6.09053L12.569 0.659576ZM12.7872 1.93075L16.7288 5.87234H12.7872V1.93075ZM1.24468 22.2553V1.40426H12.0426V6.61702H17.2553V22.2553H1.24468Z' fill='%235C5B5B'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 21px;
+    width: 16px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform : translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+/* Progress bar - Image Details ( Name and Size ) */
+.dnd-upload-status .dnd-upload-details {
+	padding-left:10px;
+	width: calc(100% - 40px);
+}
+.dnd-upload-status .dnd-upload-details .name {color:#016d98; padding:4px 0; padding-right:60px; display:flex; }
+.dnd-upload-status .dnd-upload-details .name span { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; position: relative; padding-right:10px; }
+.dnd-upload-status .dnd-upload-details .name em {color:#444242;	font-weight:700; }
+
+/* Remove Upload File */
+.dnd-upload-status .dnd-upload-details .remove-file {
+	position:absolute;
+	right:0;
+	top:10px;
+	text-decoration:none;
+	box-shadow:none;
+	outline:none;
+    opacity:1;
+}
+.dnd-upload-status .dnd-upload-details .remove-file span:after {
+    content: '';
+    width:15px;
+    height:15px;
+    display: block;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='35' height='35' viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.5 0C7.83499 0 0 7.83499 0 17.5C0 27.165 7.83499 35 17.5 35C27.165 35 35 27.165 35 17.5C34.9888 7.83965 27.1604 0.0112198 17.5 0ZM17.5 33.871C8.45857 33.871 1.12903 26.5414 1.12903 17.5C1.12903 8.45857 8.45857 1.12903 17.5 1.12903C26.5414 1.12903 33.871 8.45857 33.871 17.5C33.861 26.5373 26.5373 33.861 17.5 33.871Z' fill='black'/%3E%3Cpath d='M25.4834 9.51661C25.2629 9.29624 24.9056 9.29624 24.6852 9.51661L17.5 16.7018L10.3148 9.51661C10.0983 9.29236 9.74087 9.28615 9.51661 9.50271C9.29236 9.71927 9.28615 10.0767 9.50271 10.3009C9.50723 10.3057 9.51188 10.3103 9.51661 10.3148L16.7018 17.5L9.51661 24.6852C9.29236 24.9018 9.28615 25.2591 9.50278 25.4834C9.71941 25.7076 10.0768 25.7139 10.301 25.4972C10.3057 25.4927 10.3103 25.488 10.3148 25.4834L17.5 18.2982L24.6852 25.4834C24.9094 25.7 25.2668 25.6938 25.4834 25.4696C25.6947 25.2508 25.6947 24.9039 25.4834 24.6852L18.2982 17.5L25.4834 10.3148C25.7038 10.0944 25.7038 9.73705 25.4834 9.51661Z' fill='black'/%3E%3C/svg%3E%0A");
+}
+.dnd-upload-status.in-progress .remove-file { opacity:0.2;}
+
+.dnd-upload-status .dnd-upload-details span.has-error { color:#f50505; }
+
+/* Progress Loading */
+.dnd-upload-status .dnd-upload-details .dnd-progress-bar {
+	display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #565555;
+    height: 14px;
+}
+.dnd-upload-status .dnd-upload-details .dnd-progress-bar span {
+    background: #4CAF50;
+    display: block;
+    font-size: 11px;
+    text-align: right;
+    color: #fff;
+    height: 100%;
+	width:0;
+	line-height:14px;
+}
+.dnd-upload-status .dnd-upload-details .dnd-progress-bar span.complete { width:100%!important; padding-right:5px; }
+.dnd-upload-counter { position:absolute; right:5px; bottom:3px; font-size:12px; }
+
+/* CodeDropz Upload Plugin */
+.codedropz-upload-handler {
+	border:2px dashed #c5c5c5;
+	border-radius:5px;
+	margin-bottom:10px;
+	position:relative;
+}
+.codedropz-upload-container {
+	padding:15px 20px;
+}
+
+.codedropz-upload-inner {
+	overflow:hidden;
+	width:100%;
+	/*white-space: nowrap;*/
+	text-align:center;
+	text-overflow: ellipsis;
+	font-weight:inherit;
+}
+.codedropz-upload-inner .codedropz-btn-wrap a.cd-upload-btn {
+	text-decoration:none;
+	box-shadow:none;
+}
+.codedropz-upload-inner h3 {
+	margin:5px 0;
+	font-size:30px;
+	line-height:32px;
+    word-break:break-word;
+}
+
+/* Add border on dragenter, drag etc */
+.codedropz-dragover {
+	border-color:#6b6a6a;
+}
+
+.codedropz-upload-wrapper span.has-error-msg {
+	display:inline-block;
+	color:#ff0000;
+	padding:5px 0;
+	font-style:italic;
+}
+
+/* Jquery Validation For Contact Form 7 */
+.wpcf7-form label.error-new {
+    color: #900;
+    font-size: 11px;
+    float: none;
+    padding-left: 5px;
+}
+.wpcf7-form .codedropz-upload-wrapper.invalid .codedropz-upload-handler{
+	border-bottom-color: #900;
+    border-bottom-style: solid;
+}
+/* END : Jquery Validation CF7 */
+
+@media screen and (max-width: 767px) {
+	.dnd-upload-status .dnd-upload-details .name em { font-weight:normal; }
+	.dnd-upload-status .dnd-upload-details .name { padding-right:60px; }
+	.codedropz-upload-inner h3 { font-size:22px; }
+}</style><div class="mobmenu-overlay"></div><div class="mob-menu-header-holder mobmenu"  data-menu-display="mob-menu-slideout-over" data-open-icon="down-open" data-close-icon="up-open"><div  class="mobmenul-container"><a href="#" class="mobmenu-left-bt mobmenu-trigger-action" data-panel-target="mobmenu-left-panel" aria-label="Левая кнопка меню"><i class="mob-icon-menu-3 mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a></div><div class="mobmenur-container"></div></div>
+		<div class="mobmenu-left-alignment mobmenu-panel mobmenu-left-panel  ">
+		<a href="#" class="mobmenu-left-bt" aria-label="Левая кнопка меню"><i class="mob-icon-cancel-1 mob-cancel-button"></i></a>
+
+		<div class="mobmenu-content">
+		<div class="menu-verhnee-menju-container"><ul id="mobmenuleft" class="wp-mobile-menu" role="menubar" aria-label="Основная навигация для мобильных устройств"><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-30"><a href="https://ukstandart.ru/" role="menuitem" class="">Главная</a></li><li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-157"><a href="#" role="menuitem" class="">События</a>
+<ul  role='menu' class="sub-menu ">
+	<li role="none"  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-159"><a href="https://ukstandart.ru/news/" role="menuitem" class="">Новости</a></li>	<li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-158"><a href="/maintenance/" role="menuitem" class="">Отключения</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="https://ukstandart.ru/tehnicheskoe-obsluzhivanie-gazovogo-oborudovanija/" role="menuitem" class="">ТО газового оборудования</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7726"><a href="https://ukstandart.ru/grafik-obsluzhivanija-ventiljacionnyh-kanalov/" role="menuitem" class="">ТО вентиляционных каналов</a></li>	<li role="none"  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11877"><a href="https://ukstandart.ru/informacija-o-mestah-nakoplenija-othodov/" role="menuitem" class="">О местах накопления отходов</a></li></ul>
+</li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-60 current_page_item menu-item-has-children menu-item-68"><a href="https://ukstandart.ru/o-kompanii/" role="menuitem" class="">О Нас</a>
+<ul  role='menu' class="sub-menu ">
+	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6001"><a href="https://ukstandart.ru/o-kompanii/rekvizity/" role="menuitem" class="">Реквизиты</a></li></ul>
+</li><li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-172"><a href="#" role="menuitem" class="">Официально</a>
+<ul  role='menu' class="sub-menu ">
+	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-177"><a href="https://ukstandart.ru/raskrytie-informacii/" role="menuitem" class="">Раскрытие информации</a>
+	<ul  role='menu' class="sub-menu ">
+		<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6015"><a href="https://ukstandart.ru/raskrytie-informacii/buhgalterskaja-otchetnost/" role="menuitem" class="">Бухгалтерская отчетность</a></li>		<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2148"><a href="https://ukstandart.ru/raskrytie-informacii/forma-1-2/" role="menuitem" class="">Форма 1.2</a></li>		<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10623"><a href="https://ukstandart.ru/raskrytie-informacii/dogovor-upravlenija/" role="menuitem" class="">Договор управления</a></li>	</ul>
+</li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="https://ukstandart.ru/razbivka-domov-po-zhjeu/" role="menuitem" class="">Разбивка домов по ЖЭУ</a></li>	<li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5547"><a href="/house-archive/" role="menuitem" class="">Архив домов</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="https://ukstandart.ru/blanki-i-dokumenty/" role="menuitem" class="">Бланки и документы</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-187"><a href="https://ukstandart.ru/zakonodatelstvo/" role="menuitem" class="">Законодательство</a>
+	<ul  role='menu' class="sub-menu ">
+		<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="https://ukstandart.ru/zakonodatelstvo/tarify-na-kommunalnye-uslugi/" role="menuitem" class="">Тарифы и нормативы на коммунальные услуги</a></li>	</ul>
+</li>	<li role="none"  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-426"><a href="https://ukstandart.ru/zadolzhennost/" role="menuitem" class="">Задолженность</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="https://ukstandart.ru/uslugi/" role="menuitem" class="">Услуги</a></li>	<li role="none"  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-189"><a href="https://ukstandart.ru/blog/" role="menuitem" class="">Статьи</a></li></ul>
+</li><li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="/house/" role="menuitem" class="">Дома</a></li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5941"><a href="https://ukstandart.ru/arenda/" role="menuitem" class="">Аренда</a></li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9872"><a href="https://ukstandart.ru/obrashhenija/" role="menuitem" class="">Обращения</a>
+<ul  role='menu' class="sub-menu ">
+	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9878"><a href="https://ukstandart.ru/obrashhenija/forma-obrashhenija-jul/" role="menuitem" class="">Форма обращения ЮЛ</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9877"><a href="https://ukstandart.ru/obrashhenija/forma-obrashhenija-fl/" role="menuitem" class="">Форма обращения ФЛ</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9876"><a href="https://ukstandart.ru/obrashhenija/zajavka-na-spisanie-kontrolnyh-pokazanij/" role="menuitem" class="">Заявка на списание контрольных показаний</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9875"><a href="https://ukstandart.ru/obrashhenija/zajavka-na-vvod-v-jekspluataciju-ipu/" role="menuitem" class="">Заявка на ввод в эксплуатацию ИПУ</a></li></ul>
+</li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="https://ukstandart.ru/kontakty/" role="menuitem" class="">Контакты</a></li></ul></div>
+		</div><div class="mob-menu-left-bg-holder"></div></div>
+
+		<style id='core-block-supports-inline-css' type='text/css'>
+.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}
+</style>
+<script type='text/javascript' id='add_cr_script-js-extra'>
+/* <![CDATA[ */
+var directory_uri = {"plugin_directory_uri":"https:\/\/ukstandart.ru\/wp-content\/plugins\/comfortable-reading-premium\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/comfortable-reading-premium/js/jquery.comfortable.reading.js?ver=4.0' id='add_cr_script-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.2' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/ukstandart.ru\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.2' id='contact-form-7-js'></script>
+<script type='text/javascript' id='codedropz-uploader-js-extra'>
+/* <![CDATA[ */
+var dnd_cf7_uploader = {"ajax_url":"https:\/\/ukstandart.ru\/wp-admin\/admin-ajax.php","ajax_nonce":"882e8c929c","drag_n_drop_upload":{"tag":"h3","text":"\u041f\u0435\u0440\u0435\u0442\u0430\u0449\u0438\u0442\u0435 \u0441\u044e\u0434\u0430 \u0412\u0430\u0448\u0438 \u0444\u0430\u0439\u043b\u044b","or_separator":"\u0438\u043b\u0438","browse":"\u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0444\u0430\u0439\u043b","server_max_error":"\u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0439 \u0444\u0430\u0439\u043b \u043f\u0440\u0435\u0432\u044b\u0448\u0430\u0435\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0451\u043d\u043d\u044b\u0439 \u0440\u0430\u0437\u043c\u0435\u0440.","large_file":"\u0417\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0439 \u0444\u0430\u0439\u043b \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0432\u0435\u043b\u0438\u043a","inavalid_type":"\u0414\u0430\u043d\u043d\u044b\u0439 \u0442\u0438\u043f \u0444\u0430\u0439\u043b\u043e\u0432 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0451\u043d","max_file_limit":"\u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435: \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0444\u0430\u0439\u043b\u044b \u043d\u0435 \u0431\u044b\u043b\u0438 \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u044b ( \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e %count% \u0444\u0430\u0439\u043b\u043e\u0432 )","required":"\u041f\u043e\u043b\u0435 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435","delete":{"text":"\u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435","title":"\u0423\u0434\u0430\u043b\u0438\u0442\u044c"}},"dnd_text_counter":"\u0438\u0437","disable_btn":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/codedropz-uploader-min.js?ver=1.3.7.4' id='codedropz-uploader-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0' id='jquery-form-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/bootstrap-for-contact-form-7/assets/dist/js/scripts.min.js?ver=1.4.8' id='contact-form-7-bootstrap-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.js?ver=6.3.2' id='jquery-fancybox-js'></script>
+<script id="jquery-fancybox-js-after" type="text/javascript">
+var fb_timeout, fb_opts={'overlayShow':true,'hideOnOverlayClick':true,'showCloseButton':true,'margin':20,'enableEscapeButton':true,'autoScale':true };
+if(typeof easy_fancybox_handler==='undefined'){
+var easy_fancybox_handler=function(){
+jQuery([".nolightbox","a.wp-block-fileesc_html__button","a.pin-it-button","a[href*='pinterest.com\/pin\/create']","a[href*='facebook.com\/share']","a[href*='twitter.com\/share']"].join(',')).addClass('nofancybox');
+jQuery('a.fancybox-close').on('click',function(e){e.preventDefault();jQuery.fancybox.close()});
+/* IMG */
+var fb_IMG_select=jQuery('a[href*=".jpg" i]:not(.nofancybox,li.nofancybox>a),area[href*=".jpg" i]:not(.nofancybox),a[href*=".jpeg" i]:not(.nofancybox,li.nofancybox>a),area[href*=".jpeg" i]:not(.nofancybox),a[href*=".png" i]:not(.nofancybox,li.nofancybox>a),area[href*=".png" i]:not(.nofancybox),a[href*=".webp" i]:not(.nofancybox,li.nofancybox>a),area[href*=".webp" i]:not(.nofancybox)');
+fb_IMG_select.addClass('fancybox image');
+var fb_IMG_sections=jQuery('.gallery,.wp-block-gallery,.tiled-gallery,.wp-block-jetpack-tiled-gallery');
+fb_IMG_sections.each(function(){jQuery(this).find(fb_IMG_select).attr('rel','gallery-'+fb_IMG_sections.index(this));});
+jQuery('a.fancybox,area.fancybox,.fancybox>a').each(function(){jQuery(this).fancybox(jQuery.extend(true,{},fb_opts,{'easingIn':'easeOutBack','easingOut':'easeInBack','opacity':false,'hideOnContentClick':false,'titleShow':true,'titlePosition':'over','titleFromAlt':true,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false}))});
+};};
+var easy_fancybox_auto=function(){setTimeout(function(){jQuery('a#fancybox-auto,#fancybox-auto>a').first().trigger('click')},1000);};
+jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);
+jQuery(easy_fancybox_auto);
+</script>
+<script type='text/javascript' id='wpfront-scroll-top-js-extra'>
+/* <![CDATA[ */
+var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{display:none;position:fixed;cursor:pointer;z-index:9999;opacity:0}#wpfront-scroll-top-container div.text-holder{padding:3px 10px;border-radius:3px;-webkit-border-radius:3px;-webkit-box-shadow:4px 4px 5px 0 rgba(50,50,50,.5);-moz-box-shadow:4px 4px 5px 0 rgba(50,50,50,.5);box-shadow:4px 4px 5px 0 rgba(50,50,50,.5)}#wpfront-scroll-top-container a{outline-style:none;box-shadow:none;text-decoration:none}#wpfront-scroll-top-container {right: 20px;bottom: 20px;}        #wpfront-scroll-top-container i {\n            color: #000000;\n        }\n\n                ","html":"<div id=\"wpfront-scroll-top-container\"><i class=\"\"><\/i><\/div>","data":{"hide_iframe":false,"button_fade_duration":200,"auto_hide":false,"auto_hide_after":2,"scroll_offset":100,"button_opacity":0.8,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":"0","scroll_duration":400}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.2.10081' id='wpfront-scroll-top-js'></script>
+<script type='text/javascript' id='wpcf7cf-scripts-js-extra'>
+/* <![CDATA[ */
+var wpcf7cf_global_settings = {"ajaxurl":"https:\/\/ukstandart.ru\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.3.12' id='wpcf7cf-scripts-js'></script>
+{% comment %} <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfH5NcoAAAAAD8EAHSrtqo688cvb57ri4XAXedk&#038;ver=3.0' id='google-recaptcha-js'></script> {% endcomment %}
+<script type='text/javascript' src='https://ukstandart.ru/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LfH5NcoAAAAAD8EAHSrtqo688cvb57ri4XAXedk","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.8.2' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' id='bellows-js-extra'>
+/* <![CDATA[ */
+var bellows_data = {"config":{"main":{"folding":"multiple","current":"on","slide_speed":400}},"v":"1.4.3"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/bellows-accordion-menu/assets/js/bellows.min.js?ver=1.4.3' id='bellows-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-includes/js/hoverIntent.min.js?ver=1.10.2' id='hoverIntent-js'></script>
+<script type='text/javascript' id='megamenu-js-extra'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.2.4' id='megamenu-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/themes/defaults/js/bootstrap.min.js?ver=6.3.2' id='bootstrap-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/themes/defaults/js/owlslider.js?ver=6.3.2' id='owl-js'></script>
+<script type='text/javascript' src='https://ukstandart.ru/wp-content/themes/defaults/js/main.js?ver=6.3.2' id='main-js'></script>
+<a href="https://wp-lessons.com/" style="display: none">WordPress Lessons</a><script>
+jQuery(function(jQuery){
+ jQuery('#post-date-filter').submit(function(){
+  var filter = jQuery('#post-date-filter');
+  jQuery.ajax({
+   url:filter.attr('action'),
+   data:filter.serialize(), // данные формы
+   type:filter.attr('method'), // POST
+   beforeSend:function(xhr){ filter.find('button').text('Поиск...'); },
+   success:function(data){ filter.find('button').text('Фильтр'); jQuery('.filtering-results').html(data); }
+  });
+  return false;
+ });
+});
+</script>
+
+<script>
+jQuery(document).ready(function() {
+  jQuery('.collapse.in').prev('.card-header').addClass('active');
+  jQuery('#accordion, #bs-collapse')
+    .on('show.bs.collapse', function(a) {
+     jQuery(a.target).prev('.card-header').addClass('active');
+    })
+    .on('hide.bs.collapse', function(a) {
+      jQuery(a.target).prev('.card-header').removeClass('active');
+    });
+});
+
+</script>
+
+<script>
+   jQuery( document ).ready(function() {
+  jQuery(window).scroll(function(){
+        if (jQuery(window).scrollTop() > 300) {
+            jQuery('#menubar').addClass('scroll');
+        }
+        else {
+            jQuery('#menubar').removeClass('scroll');
+        }
+    });
+   
+   });
+</script>
+
+
+
+
+
+
+</body>
+</html>
